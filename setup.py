@@ -19,7 +19,7 @@ def required(requirements_file):
 
 setup(
     name='alice-messagebus-client',
-    version='0.9.5', #need to update to 0.10.1
+    version='0.10.1',
     packages=['alice_bus_client', 'alice_bus_client.client',
               'alice_bus_client.util'],
     package_data={
