@@ -1,8 +1,8 @@
 import os
 from setuptools import setup
 
-with open("README.md", "r") as fh:
-    long_desc = fh.read()
+# with open("README.md", "r") as fh:
+#     long_desc = fh.read()
 
 
 def required(requirements_file):
@@ -32,7 +32,7 @@ setup(
     author='Mycroft AI, Åke Forslund',
     author_email='devs@mycroft.ai, ake.forslund@gmail.com',
     description='Alice Messagebus Client',
-    long_description=long_desc,
+    # long_description=long_desc,
     long_description_content_type="text/markdown",
     classifiers=[
         'Development Status :: 4 - Beta',
